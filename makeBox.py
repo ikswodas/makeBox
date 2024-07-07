@@ -12,7 +12,8 @@ except ValueError:
     print('Error:', n, 'is not a whole number!')
     sys.exit()
 
-# Main construction loop, if else statment checks if the number is between 1 and 50 (50 chosen as when running this fullscreen it starts to get weird higher than that)
+# Main construction loop, if else statment checks if the number is between 1 and 50 (50 chosen as when running this 
+# fullscreen it starts to get weird higher than that)
 n = int(n)
 if 0 < n < 51:
     print('You have requested for a', n, 'by', n, 'box, constructing now.\n')
